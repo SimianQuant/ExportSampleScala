@@ -18,7 +18,7 @@ class GeneratedBench {
     var incr = (yMax - yMin) / cnt
 
     var y = yMin
-    while(y < yMax){
+    while (y < yMax) {
       val eval = GeneratedImpl(x, y)
       bh.consume(eval)
       y += incr
