@@ -4,7 +4,7 @@
 # sbt specific
 .cache/
 .history/
-.lib/
+# .lib/
 dist/*
 target/
 lib_managed/
@@ -40,7 +40,7 @@ prod.conf
 # sq specific
 
 sqgen/
-lib/
+# lib/
 res/
 demoop/
 gen/
